@@ -9,6 +9,8 @@ const DB_URL = process.env.DB_URL;
 
 mongoose.connect(DB_URL);
 
+console.log("connectd to mongodb");
+
 const todoSchema = mongoose.Schema({
     title: String,
     desc: String,
