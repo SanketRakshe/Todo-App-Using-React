@@ -16,3 +16,20 @@ got to db.js file and add mongoose link (connect your database)
 **replace NAME, PASSWORD and DATABASE name**
     
     node index.js
+
+**For Frontend**
+go to frontend folder
+
+    npm install
+    npm run dev
+
+
+Both Frontend and Backend Running 
+
+- Now, add title and description 
+- click on Inspect
+- got ot Network
+- In the Name section click todo
+- In response section you can see the Todo Created Output
+- You can manullay check in your database as well.
+-  **localhost:3000/todos** - to view all todos
